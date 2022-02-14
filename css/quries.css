@@ -1,0 +1,63 @@
+/* rem and em do not depend on html font-size media query */
+/* 1em=1rem = 16px = 1354/16 = 84 */
+
+
+
+  /* for big screens */
+@media screen and (min-width: 576px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    main{
+        margin-top: 15rem;
+      }
+     
+    .container, .container-lg {
+        max-width: 1285px;
+    }
+      
+    .hero-circle {
+        width: 27rem;
+        height: 27rem;
+        border-radius: 50%;
+        background: linear-gradient(
+          180deg,
+          rgba(224, 23, 255, 0.13) 50%,
+          rgba(14, 37, 242, 0) 100%
+        );
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+      }
+    
+
+      .background-image-hero {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/hero-vector-1.png), url(../images/hero-Vector-2.png);
+        background-repeat: no-repeat;
+        z-index: -2;
+        top: -19em;
+        left: 41em;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .hero-circle {
+        width: 27rem;
+        height: 27rem;
+        border-radius: 50%;
+        background: linear-gradient(
+          180deg,
+          rgba(224, 23, 255, 0.13) 50%,
+          rgba(14, 37, 242, 0) 100%
+        );
+        position: absolute;
+        top: -3rem;
+        left: 0rem;
+      }
+  }
