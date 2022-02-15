@@ -37,57 +37,57 @@ body {
   margin: 0px;
 }
 
-.navbar{
+.navbar {
   background-color: white;
 }
 
-.logo-heading{
+.logo-heading {
   font-size: 2.2rem;
   font-weight: bolder;
   color: #000299;
   line-height: 1.2;
   margin-bottom: 0px;
 }
-.logo-text{
+.logo-text {
   font-size: 1.1rem;
   margin-bottom: 0px;
 }
-.nav-item a{
+.nav-item a {
   font-size: 2rem;
   line-height: 1.2;
   font-weight: 400;
   display: flex;
   align-items: center;
   text-decoration: none;
-  color:#000000  !important;
+  color: #000000 !important;
 }
 
 .dropdown-toggle::after {
   content: none;
 }
 
-.nav-item input{
-  background-color: #FFFFFF;
-  width:32rem;
-  height: 3.6rem; 
-  background-image: url('../images/bx-search.svg');
+.nav-item input {
+  background-color: #ffffff;
+  width: 32rem;
+  height: 3.6rem;
+  background-image: url("../images/bx-search.svg");
   background-position: 95%;
   background-repeat: no-repeat;
   padding: 0px 1.5rem;
   font-size: 1.4rem;
   font-weight: 400;
   border-radius: 1.2rem;
-  border: 1px solid #CECECE;
+  border: 1px solid #cecece;
   box-shadow: rgba(77, 77, 77, 0.1) 0px 1px 6px 0px;
 }
-.nav-item input[type=text]:focus {
-  border: 1px solid #CECECE;
-  outline:  #CECECE;
+.nav-item input[type="text"]:focus {
+  border: 1px solid #cecece;
+  outline: #cecece;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 6px 0px;
-  padding:  1.1rem 2rem;
+  padding: 1.1rem 2rem;
 }
 
-.nav-item button{
+.nav-item button {
   font-size: 1.4rem;
   font-weight: 500;
   padding: 1.1rem 3.5rem;
@@ -98,20 +98,17 @@ body {
   cursor: pointer;
 }
 
-.nav-item  button:hover
-{
+.nav-item button:hover {
   background-color: #1366f7;
-  
 }
 
-main{
+main {
   margin-top: 8rem;
 }
 
 /* hero start */
-.hero{
+.hero {
   position: relative;
-  
 }
 #hero-heading {
   color: #2875dd;
@@ -133,12 +130,9 @@ main{
   letter-spacing: -0.5px;
 }
 
-
-
 /* Subscribe Section */
 
-
-.subscribe{
+.subscribe {
   background-color: #e6f0ff;
   background-image: url("../images/Vector3.svg"), url("../images/Vector4.svg"),
     url("../images/Vector5.svg"), url("../images/Vector6.svg"),
@@ -162,10 +156,10 @@ main{
   border: 2px solid #d1d1d1;
   font-size: 2.2rem;
   padding: 0.6rem 1.2rem;
-  outline: #d1d1d1; ;
+  outline: #d1d1d1;
 }
 
-.subscribe-form input[type="text"]:focus {
+.subscribe-form input[type="email"]:focus {
   outline: none;
   border-color: #719ece;
   box-shadow: 0 0 10px #719ece;
@@ -184,61 +178,232 @@ main{
   margin: 0px;
 }
 
-
 /* learn section */
-.learn{
+.learn {
   color: white;
-  background-color: #006CFF;
+  background-color: #006cff;
 }
 
-
-.learn-heading
-{
+.learn-heading {
   font-weight: 700;
   font-size: 3.5rem;
   line-height: 1.5;
-
 }
 
-.learn-heading-description{
+.learn-heading-description {
   font-size: 2.2rem;
   font-weight: normal;
 }
-.card-container{
-  padding:0px 2rem;
+.card-container {
+  padding: 0px 2rem;
 }
-.card{
+.card {
   border-radius: 2rem;
   max-width: 23rem;
   margin: 0px auto;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.card img{
+.card img {
   width: 4rem;
   height: 4rem;
   background-color: #006cff;
   border-radius: 50%;
-  padding:1rem;
+  padding: 1rem;
   margin-top: 4rem;
 }
 
-.card-head{
+.card-head {
   color: #003174;
   font-size: 2rem;
   line-height: 1.5;
   margin-top: 2rem;
 }
-.learn-more{
-  color:#006CFF;
+.learn-more {
+  color: #006cff;
   text-decoration: none;
   font-size: 1.5rem;
   line-height: 1.5;
   margin-top: 3rem;
-  margin-bottom:2rem
-
+  margin-bottom: 2rem;
 }
 
+/* Interview Section */
+.interview-heading {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #003d8f;
+}
+
+.interview-description {
+  font-size: 2.5rem;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 2rem;
+  line-height: 1.2;
+}
+
+.interview-description2 {
+  font-size: 2rem;
+  color: #000000;
+  line-height: 1.2;
+  margin-top: 2rem;
+}
+.interview-text button {
+  border: none;
+  background-color: #539cff;
+  border-radius: 1.2rem;
+  margin-top: 2rem;
+  font-weight: bolder;
+  font-size: 2.2rem;
+  color: white;
+  padding: 2rem 6rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: ease-in all 0.5s;
+}
+.interview-text button:hover {
+  background-color: #003d8f;
+}
+
+/* help section start */
+.help {
+  background-color: #e6f0ff;
+}
+.help-heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #003174;
+}
+
+/* Feature Section*/
+.feature-card {
+  padding: 3rem 0rem;
+  overflow: hidden;
+  height: 31rem;
+  padding: 2rem;
+  background-image: url("../images/left-heart.svg"),
+    url("../images/right-heart.svg"), url("../images/feature-bottom.svg");
+  background-repeat: no-repeat;
+  background-size: auto, auto, 100%;
+  background-position: left top, right -2rem, 0px 12rem;
+}
+.feature-image img {
+  width: 10rem;
+  height: auto;
+}
+
+.feature-image {
+  background-image: url("../images/ellipse.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 10rem;
+}
+
+.feature-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2a26e4;
+  text-align: center;
+}
+.feature-description {
+  display: none;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #0d0c4b;
+}
+
+.feature-card:hover {
+  background-image: url("../images/left-heart.svg"),
+    url("../images/right-heart.svg"), url("../images/feature-bottom.svg");
+  background-repeat: no-repeat;
+  background-size: auto, auto, 100%;
+  background-position: left -1rem, right -4rem, 0px 9rem;
+}
+
+.feature-card:hover .feature-image {
+  transform: scale(0.5);
+}
+
+.feature-card:hover .feature-description,
+.feature-card:hover .feature-heading {
+  display: block;
+}
+/* Features Section End */
+
+/* Footer Section */
+footer {
+  background-color: #003e93;
+  color: white;
+}
+.footer-up{
+  border-bottom: 2px solid white;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
+
+footer a,
+footer a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-logo-heading h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer-logo-heading p {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+footer input[type="email"] {
+  width: 75%;
+  height: 3rem;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 2.3rem 3.5rem 2.3rem 1.1rem;
+  font-size: 2rem;
+  color: rgb(61, 47, 47);
+}
+
+footer input[type="email"]:focus {
+  outline: #ffffff;
+}
+
+footer input[type="submit"] {
+  font-size: 2rem;
+  color: white;
+  border: none;
+  background-color: #006cff;
+  border-radius: 1rem;
+  padding: 1.3rem 2rem;
+  margin-left: -4rem;
+}
+.footer-list{
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer-list li
+{
+  font-size: 1.2rem;
+  margin-top:1.4rem;
+}
+
+.footer-down ul{
+  list-style: none;
+  padding: 0px;
+}
+.footer-down p,li{
+  padding: 0px;
+  font-size:1.2rem;
+}
+
+/* Footer Section Ends */
 
 /* .section-hero {
   position: relative;
