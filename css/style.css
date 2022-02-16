@@ -53,7 +53,7 @@ body {
   margin-bottom: 0px;
 }
 .nav-item a {
-  font-size: 2rem;
+  font-size: 2.2rem;
   line-height: 1.2;
   font-weight: 400;
   display: flex;
@@ -65,6 +65,114 @@ body {
 .dropdown-toggle::after {
   content: none;
 }
+
+/* Modal settings */
+.modal-backdrop {
+  opacity:0.6 !important;
+}
+.modal {
+  margin-top: 5rem;
+}
+.modal-header{
+  border: none;
+}
+
+.modal-content{
+  border: none;
+  /*  */
+}
+.tutorial-modal-body{
+  width: 150%;
+
+}
+/* Modal Settings ends */
+
+/* Tutorials */
+
+.tutorials ul{
+  list-style: none;
+  padding-left: 0;
+}
+.languages a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.6rem;
+  display: block;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-right: 3px solid rgba(232, 232, 232, 0.6);
+}
+.languages a:hover{
+  color: rgba(0, 108, 255, 1) !important;
+  background-color: rgb(191 218 255);
+}
+
+.list-active{
+  color: rgba(0, 108, 255, 1) !important;
+  background-color: rgb(191 218 255);
+  border-right: 3px solid rgba(0, 108, 255, 0.6) !important;
+}
+
+.languages-info
+{
+  border-right: 3px solid rgba(232, 232, 232, 0.6);
+}
+
+.languages-info ul
+{
+  list-style: none;
+  padding-left: 0px;
+}
+.languages-info li{
+  margin-top: 3rem;
+}
+.languages-info a{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.languages-info a:hover{
+  color: rgba(0, 108, 255, 1) !important;
+  text-decoration: underline;
+}
+
+
+
+
+.tutorial-references ul
+{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.tutorial-references li{
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: rgba(70, 137, 255, 0.1);
+
+}
+
+.tutorial-references a{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: 450;
+}
+.tutorial-references a:hover{
+  color: rgba(0, 108, 255, 1) !important;
+  text-decoration: underline;
+}
+a .view-more{
+  display: block;
+  margin-top:3rem;
+  font-size: 1.3rem;
+  color: #357CFA;
+  text-align: end;
+}
+
+/* tutorials ends */
+
 
 .nav-item input {
   background-color: #ffffff;

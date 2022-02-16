@@ -64,6 +64,12 @@
         top: -3rem;
         left: 0rem;
       }
+
+      .interview-block{
+          text-align: center;
+      }
+
+
       .footer-section{
         padding-top:5rem ;
     }
