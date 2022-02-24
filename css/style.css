@@ -35,6 +35,7 @@ body {
   color: #000000;
   padding: 0px;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -390,6 +391,7 @@ main {
   overflow: hidden;
   height: 31rem;
   padding: 2rem;
+  margin-bottom: 3rem;
   background-image: url("../images/left-heart.svg"),
     url("../images/right-heart.svg"), url("../images/feature-bottom.svg");
   background-repeat: no-repeat;

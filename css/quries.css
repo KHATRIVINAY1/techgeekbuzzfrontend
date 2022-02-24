@@ -6,9 +6,6 @@
   /* for big screens */
 @media screen and (min-width: 576px) {
 
-    body{
-        overflow-x: hidden;
-    }
     main{
         margin-top: 15rem;
       }
@@ -16,7 +13,7 @@
     .container, .container-lg {
         max-width: 1285px;
     }
-      
+
     .hero-circle {
         width: 27rem;
         height: 27rem;
@@ -30,7 +27,6 @@
         top: 1rem;
         left: 1rem;
       }
-    
 
       .background-image-hero {
         position: absolute;
@@ -72,6 +68,5 @@
 
       .footer-section{
         padding-top:5rem ;
-    }
-    
+    } 
   }
