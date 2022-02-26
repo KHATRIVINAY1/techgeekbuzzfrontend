@@ -41,6 +41,16 @@
     .footer-section{
         padding-top:10rem ;
     }
+
+    .learn-btn{
+      font-size: 1.6rem;
+      font-weight: bold;
+      max-width: 27rem;
+      padding: 1rem 2rem;
+      margin-top: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0px 4px 10px rgba(0, 108, 255, 0.57);
+    }
    
 }
 

@@ -69,10 +69,12 @@ body {
 
 /* Modal settings */
 .modal-backdrop {
-  opacity:0.6 !important;
+  opacity:0.4 !important;
+  top:6.5rem
 }
 .modal {
-  margin-top: 5rem;
+  margin-top: 4.7rem;
+  
 }
 .modal-header{
   border: none;
@@ -167,9 +169,8 @@ body {
 a .view-more{
   display: block;
   margin-top:3rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #357CFA;
-  text-align: end;
 }
 
 /* tutorials ends */
