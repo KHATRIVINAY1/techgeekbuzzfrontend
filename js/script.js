@@ -1,7 +1,8 @@
 let stack = []
 
 function toggleModal(event){
-    console.log(event.target.dataset.bsTarget)
+    console.log(event.target)
+    if(event.target.dataset.bsTarget){
     if(stack[0]==null){
         stack.pop()
     }
@@ -16,10 +17,10 @@ function toggleModal(event){
         else{
             stack.pop()
         }
-    }
+    }}
 }
-navtutorialButton = document.querySelector('[data-bs-target="#tutorialModal"]')
-navexampleButton = document.querySelector('[data-bs-target="#exampleModal"]')
+navtutorialButton = document.querySelector('#tutorial-btn')
+navexampleButton = document.querySelector('#example-btn')
 
 navexampleButton.addEventListener('click', toggleModal)
 navtutorialButton.addEventListener('click', toggleModal)

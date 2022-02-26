@@ -74,7 +74,7 @@ body {
 }
 .modal {
   margin-top: 4.7rem;
-  
+
 }
 .modal-header{
   border: none;
@@ -121,21 +121,21 @@ body {
   border-right: 3px solid rgba(232, 232, 232, 0.6);
 }
 
-.languages-info ul
+.languages-info ul, .example-info ul
 {
   list-style: none;
   padding-left: 0px;
 }
-.languages-info li{
+.languages-info li, .example-info li{
   margin-top: 3rem;
 }
-.languages-info a{
+.languages-info a , .example-info a{
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.4rem;
   text-decoration: none;
   font-weight: bold;
 }
-.languages-info a:hover{
+.languages-info a:hover , .example-info a:hover{
   color: rgba(0, 108, 255, 1) !important;
   text-decoration: underline;
 }
