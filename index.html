@@ -17,7 +17,9 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
   <!-- Style.css -->
+ 
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/homepage.css" />
   <link rel="stylesheet" href="css/quries.css" />
 
 
@@ -43,22 +45,27 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
             <li class="nav-item dropdown me-5">
-              <a class="nav-link" href="#"  data-bs-toggle="modal" id="tutorial-btn" data-bs-target="#tutorialModal" data-bs-dismiss="modal"
-                   >
+              <a class="nav-link" href="#" data-bs-toggle="modal" id="tutorial-btn" data-bs-target="#tutorialModal"
+                data-bs-dismiss="modal">
                 Tutorials<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                  style="fill: rgba(0, 0, 0, 1)" data-bs-toggle="modal" id="tutorial-btn" data-bs-target="#tutorialModal" data-bs-dismiss="modal">
-                  <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z" data-bs-toggle="modal" id="tutorial-btn" data-bs-target="#tutorialModal" data-bs-dismiss="modal"></path>
+                  style="fill: rgba(0, 0, 0, 1)" data-bs-toggle="modal" id="tutorial-btn"
+                  data-bs-target="#tutorialModal" data-bs-dismiss="modal">
+                  <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"
+                    data-bs-toggle="modal" id="tutorial-btn" data-bs-target="#tutorialModal" data-bs-dismiss="modal">
+                  </path>
                 </svg>
               </a>
             </li>
 
 
             <li class="nav-item dropdown me-5">
-              <a class="nav-link" href="#"  id = "example-btn" data-bs-toggle="modal"  data-bs-target="#exampleModal" data-bs-dismiss="modal" 
-                 >
+              <a class="nav-link" href="#" id="example-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-bs-dismiss="modal">
                 Examples<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                  style="fill: rgba(0, 0, 0, 1)" id = "example-btn" data-bs-toggle="modal"  data-bs-target="#exampleModal" data-bs-dismiss="modal" >
-                  <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z" id = "example-btn" data-bs-toggle="modal"  data-bs-target="#exampleModal" data-bs-dismiss="modal" ></path>
+                  style="fill: rgba(0, 0, 0, 1)" id="example-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  data-bs-dismiss="modal">
+                  <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z" id="example-btn"
+                    data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-dismiss="modal"></path>
                 </svg>
               </a>
             </li>
@@ -68,7 +75,7 @@
               </form>
             </li>
             <li class="nav-item align-self-center">
-              <button>Log in/Sign up</button>
+              <button data-bs-toggle="modal" data-bs-target="#signup" id="signup-btn">Log in/Sign up</button>
             </li>
           </ul>
         </div>
@@ -132,7 +139,7 @@
       </div>
     </div>
   </div>
-  <!-- Modal for tutorials ends -->
+  <!-- Modal for Examples ends -->
 
   <!-- Modal For tutorial -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exmpleModalLabel" aria-hidden="true">
@@ -180,7 +187,56 @@
       </div>
     </div>
   </div>
-  <!-- Modal for tutorials ends -->
+  <!-- Modal for Examples ends -->
+
+  <!-- Modal for Signup Login -->
+  <!-- Modal -->
+  <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="signupLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h1 class="signup-heading">Welcome to</h1>
+          <img class="signup-image-logo" src="images/cropped-Techgeekbuzz-Final-Logo-e1611249305805.png">
+          <h3 class="signup-subheading">TechGeekBuzz</h3>
+          <span class="signup-span">Techies World for Tech Geeks</span>
+          <br>
+          <p class="signup-form-heading">Signup to submit and upvote tutorials, follow topic and more</p>
+          <form class="d-flex flex-column signup-form">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button type="submit" class="btn-primary">Create Account</button>
+          </form>
+          <p class="signup-p"> Continue with</p>
+          <div class="signup-social-media d-flex justify-content-evenly">
+            <a href="#" class="btn btn-danger d-flex align-items-center"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                <path
+                  d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+              </svg></i> &nbsp; &nbsp; Google</a>
+            
+              <a href="#" class="btn btn-primary d-flex align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg> &nbsp; &nbsp; Facebook</a>
+
+              <a href="#" class="btn btn-dark d-flex align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg> &nbsp; &nbsp; Github</a>
+
+              <a href="#" class="btn btn-primary d-flex align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg> &nbsp; &nbsp; Linkdin</a>
+          </div>
+          <p class="signup-login-p">Already have an Account <a href="#">Login</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal for Signup login ends -->
+
 
 
   <!-- Main Section Started -->
@@ -302,88 +358,164 @@
     </section>
     <!-- End Interview Section -->
 
-    <!-- Help Section Start -->
-    <section class="help py-5 mt-5">
+    <!-- Need Section Start -->
+    <section class="my-5">
       <div class="container">
-        <h1 class="text-center help-heading"> How does Techgeekbuzz help <br> in your professional development?</h1>
-        <div class="features mt-5">
-          <div class="conainter">
-            <div class="row">
-              <!-- Item 1 -->
-              <div class="col-lg-3 col-12">
-                <div class="feature-card d-flex flex-column align-items-center justify-content-between shadow">
-                  <div class="feature-image">
-                    <img src="images/Learn from advance-feature-1.png" class="img-fluid" alt="feature1">
-                    <div class="left-heart"></div>
-                  </div>
-                  <div class="feature-info">
-                    <h1 class="feature-heading">Zero to Hero</h1>
-                    <p class="feature-description">Tutorials are designed for all levels. The concepts and code are
-                      described in details to be
-                      comprehended easily by the reader.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Item 1 ends -->
-              <!-- Item 2 -->
-              <div class="col-lg-3 col-12">
-                <div class="feature-card d-flex flex-column align-items-center justify-content-between shadow">
-                  <div class="feature-image">
-                    <img src="images/feature2.png" class="img-fluid" alt="feature2">
-                    <div class="left-heart"></div>
-                  </div>
-                  <div class="feature-info">
-                    <h1 class="feature-heading">Interactive Examples</h1>
-                    <p class="feature-description">Interactive examples are
-                      embedded within the content to
-                      keep the reader engaged and to
-                      providepractical learning.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Item 2 ends -->
-              <!-- Item 3 -->
-              <div class="col-lg-3 col-12">
-                <div class="feature-card d-flex flex-column align-items-center justify-content-between shadow">
-                  <div class="feature-image">
-                    <img src="images/feature3.png" class="img-fluid" alt="feature3">
-                    <div class="left-heart"></div>
-                  </div>
-                  <div class="feature-info">
-                    <h1 class="feature-heading">Trustworthy Content</h1>
-                    <p class="feature-description">Our website contains original content
-                      drawn after extensive research and
-                      study. We are always up to date!
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Item 3 ends -->
-              <!-- Item 4 -->
-              <div class="col-lg-3 col-12">
-                <div class="feature-card d-flex flex-column align-items-center justify-content-between shadow">
-                  <div class="feature-image">
-                    <img src="images/feature4.png" class="img-fluid" alt="feature4">
-                    <div class="left-heart"></div>
-                  </div>
-                  <div class="feature-info">
-                    <h1 class="feature-heading">Interactive Examples</h1>
-                    <p class="feature-description">We are always eager & excited to help
-                      you learn more. Watch out for content
-                      on Date Science & AI.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Item 4 ends -->
+        <h1 class="need-heading">Why you need <br><span>Techgeekbuzz?</span></h1>
+        <hr class="horizontal-row" />
+        <div class="container features">
+          <div class="row my-3 g-0">
+            <!-- first feature -->
+            <div class="col-lg-6 col-12  my-lg-5  order-lg-1 order-1 need-image">
+              <img src="images/Learn from advance-feature.png" alt="learn from basic to advance" class="img-fluid">
             </div>
+            <div class="col-lg-6 col-12  my-lg-5 mb-5 order-lg-2 order-2 need-description d-flex flex-column">
+              <h1> 01</h1>
+              <h2>Learn from Basics to Advanced</h2>
+              <p>Tutorials are designed for all levels. The concepts and code are described in details to be
+                comprehended easily by the reader.</p>
+            </div>
+            <!-- first feature ends -->
+            <br>
+
+            <!-- Second feature starts -->
+            <div
+              class="col-lg-6 col-12 my-lg-5 mb-5 order-lg-3 order-4 need-description d-flex flex-column even-features">
+              <h1> 02</h1>
+              <h2>Interactive Examples</h2>
+              <p>Interactive examples are embedded within
+                the content to keep the reader engaged
+                and to provide practical learning.</p>
+            </div>
+            <div class="col-lg-6 col-12 my-lg-5 mt-5 order-lg-4 order-3 need-image">
+              <img src="images/interactive-examples.png" alt="interactive-examples" class="img-fluid">
+            </div>
+            <!-- second feature  ends-->
+            <br>
+
+            <!-- third feature -->
+            <div class="col-lg-6 col-12 my-lg-5 mt-5 order-lg-5 order-5 need-image">
+              <img src="images/trusty-worthy-content.png" alt="learn from basic to advance" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-12 my-lg-5 mb-5 order-lg-6 order-6 need-description d-flex flex-column">
+              <h1> 03</h1>
+              <h2>Trustworthy Content</h2>
+              <p>Tutorials are designed for all levels. The concepts
+                and code are described in details to be
+                comprehended easily by the reader.</p>
+            </div>
+            <!-- third feature ends -->
+            <br>
+
+            <!-- 4th  feature starts -->
+            <div
+              class="col-lg-6 col-12 my-lg-5 mb-5 order-lg-7 order-8 need-description d-flex flex-column even-features">
+              <h1> 04</h1>
+              <h2>Interactive Examples</h2>
+              <p>Interactive examples are embedded within
+                the content to keep the reader engaged
+                and to provide practical learning.</p>
+            </div>
+            <div class="col-lg-6 col-12 my-lg-5  mt-5 order-lg-8 order-7 need-image">
+              <img src="images/coding practice.png" alt="coding practice" class="img-fluid">
+            </div>
+            <!-- 4th feature  ends-->
+            <br>
+
+            <!-- 5th feature -->
+            <div class="col-lg-6 col-12 my-lg-5 mt-5 order-lg-9 order-9 need-image">
+              <img src="images/code-cater.png" alt="code cater" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-12 my-lg-5 mb-5 order-lg-10 order-10 need-description d-flex flex-column">
+              <h1> 05</h1>
+              <h2>Code Cater</h2>
+              <p>Tutorials are designed for all levels. The concepts
+                and code are described in details to be
+                comprehended easily by the reader.</p>
+            </div>
+            <!-- 5th feature ends -->
+            <br>
+
+            <!-- 4th  feature starts -->
+            <div
+              class="col-lg-6 col-12 my-lg-5 mb-5 order-lg-11 order-12 need-description d-flex flex-column even-features">
+              <h1> 06</h1>
+              <h2>Comprehensive</h2>
+              <p>Interactive examples are embedded within
+                the content to keep the reader engaged
+                and to providepractical learning.</p>
+            </div>
+            <div class="col-lg-6 col-12 my-lg-5 mt-5 order-lg-12 order-11 need-image">
+              <img src="images/comprehension.png" alt="comprehension" class="img-fluid">
+            </div>
+            <!-- 4th feature  ends-->
           </div>
         </div>
       </div>
     </section>
-    <!-- Help Section Ends -->
+    <!-- Need Section Ends -->
+
+    <!-- Homepage Blog section -->
+    <section class="mt-5 homepage-popular-blogs">
+      <div class="container">
+        <h1 class="homepage-blog-heading">Popular Blogs</h1>
+        <hr class="horizontal-row" />
+        <div class="container">
+          <div class="row blogs-list">
+            <!-- Blog 1 Start -->
+            <div class="col-lg-4 col-12 mb-3">
+              <div class="container shadow">
+                <div class="blog-card d-flex flex-column">
+                  <img src="images/blog-image-1.png" class="img-fluid" alt="blog-image-1">
+                  <a href="#"> <span>Web Devlopment</span></a>
+                  <h3><a href="#">SQL Projects for Database Developers </a></h3>
+                  <p>Organizational data keeps on increasing day by day, thus increasing the
+                    demand for managing</p>
+                  <div class="d-flex align-items-center justify-content-between"><a href="#"> 5 Mar, 2022</a> <a
+                      class="btn btn-primary"> Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Blog 1 ends -->
+            <!-- Blog 2 -->
+            <div class="col-lg-4 col-12 mb-3">
+              <div class="container shadow">
+                <div class="blog-card d-flex flex-column">
+                  <img src="images/blog-image-1.png" class="img-fluid" alt="blog-image-1">
+                  <a href="#"> <span>Web Devlopment</span></a>
+                  <h3><a href="#">SQL Projects for Database Developers </a></h3>
+                  <p>Organizational data keeps on increasing day by day, thus increasing the
+                    demand for managing</p>
+                  <div class="d-flex align-items-center justify-content-between"><a href="#"> 5 Mar, 2022</a> <a
+                      class="btn btn-primary"> Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Blog 2 ends -->
+            <!-- Blog 3 -->
+            <div class="col-lg-4 col-12 mb-3">
+              <div class="container shadow">
+                <div class="blog-card d-flex flex-column">
+                  <img src="images/blog-image-1.png" class="img-fluid" alt="blog-image-1">
+                  <a href="#"> <span>Web Devlopment</span></a>
+                  <h3><a href="#">SQL Projects for Database Developers </a></h3>
+                  <p>Organizational data keeps on increasing day by day, thus increasing the
+                    demand for managing</p>
+                  <div class="d-flex align-items-center justify-content-between"><a href="#"> 5 Mar, 2022</a> <a
+                      class="btn btn-primary"> Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Blog 3 ends -->
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Homepage Blog section ends -->
   </main>
   <!-- Main section ended -->
   <footer>
@@ -472,7 +604,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

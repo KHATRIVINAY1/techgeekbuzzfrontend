@@ -11,7 +11,31 @@
       }
      
     .container, .container-lg {
-        max-width: 1285px;
+        max-width: 1200px;
+    }
+    .order-lg-6{
+      order:6;
+    }
+    
+    .order-lg-7{
+      order:7;
+    }
+    
+    .order-lg-8{
+      order:8;
+    }
+    
+    .order-lg-9{
+      order:9;
+    }
+    .order-lg-10{
+      order:10;
+    }
+    .order-lg-11{
+      order:11;
+    }
+    .order-lg-12{
+      order:12;
     }
 
     .hero-circle {
@@ -38,6 +62,9 @@
         top: -19em;
         left: 41em;
     }
+    .even-features{
+      text-align: end;
+    }
     .footer-section{
         padding-top:10rem ;
     }
@@ -55,7 +82,35 @@
 }
 
 
+/* for mobiles */
+
 @media screen and (max-width: 576px) {
+
+      .order-6{
+        order:6;
+      }
+      
+      .order-7{
+        order:7;
+      }
+      
+      .order-8{
+        order:8;
+      }
+      
+      .order-9{
+        order:9;
+      }
+      .order-10{
+        order:10;
+      }
+      .order-11{
+        order:11;
+      }
+      .order-12{
+        order:12;
+      }
+
 
     .hero-circle {
         width: 27rem;

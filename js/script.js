@@ -21,7 +21,8 @@ function toggleModal(event){
 }
 navtutorialButton = document.querySelector('#tutorial-btn')
 navexampleButton = document.querySelector('#example-btn')
+signupButton = document.querySelector("#signup-btn")
 
 navexampleButton.addEventListener('click', toggleModal)
 navtutorialButton.addEventListener('click', toggleModal)
-
+signupButton.addEventListener('click', toggleModal)
