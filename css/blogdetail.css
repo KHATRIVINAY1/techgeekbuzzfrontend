@@ -66,6 +66,19 @@ main{
 /* Header of the blog ends */
 
 /* Article section */
+.tbc{
+    margin-bottom: 2rem;
+}
+.accordion-header{
+    margin-top: 0px;
+}
+.accordion-header button{
+    font-size:2rem;
+    margin-top: 0px;
+    font-weight: bolder;
+    background-color: rgba(145, 179, 250, 0.5);
+}
+
 article{
     font-size: 1.8rem;
     color: #444;
