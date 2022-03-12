@@ -87,6 +87,11 @@ article{
     
 }
 
+article pre{
+    background-color: #09005D;
+    padding: 2rem;
+    color: #fff;
+}
 
 article::target-text {
     margin-bottom: 100rem;
@@ -148,3 +153,101 @@ article ul{
     overflow-x:auto ;
 }
 /* Article section ends */
+
+/* Comment Section form */
+.comment-section{
+    margin: 1.4rem 0px;
+    padding: 2rem;
+}
+.comment-section h1{
+    color: #00347B;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+.comment-section form input, textarea, input:focus, textarea:focus{
+    width: 100%;
+    font-size: 1.5rem;
+    border:1px solid rgba(145, 179, 250, 0.5);
+    padding: 1.5rem 2rem;
+    margin-bottom: 1rem;
+    outline: rgba(145, 179, 250, 0.5);
+    color: #444;
+}
+
+.comment-section form button{
+    padding: 1.5rem 2rem;
+    font-size:1.5rem  ;
+    font-weight: bolder;
+}
+
+
+.reply-form  input, textarea, input:focus, textarea:focus{
+    width: 100%;
+    font-size: 1.5rem;
+    border:1px solid rgba(145, 179, 250, 0.5);
+    padding: 1.5rem 2rem;
+    margin-bottom: 1rem;
+    outline: rgba(145, 179, 250, 0.5);
+    color: #444;
+}
+
+.reply-form  button{
+    padding: 1.5rem 2rem;
+    font-size:1.5rem  ;
+    font-weight: bolder;
+}
+
+/* Comment Section Form ends */
+
+/* Comment Section Start */
+.comments-section{
+    margin: 2rem 0px;
+}
+.comment-list
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.comment-list ul
+{
+    list-style: none;
+}
+.comment-item{
+    border : 1px solid rgb(226, 226, 226);
+    padding: 1.2rem;
+    margin: 1.2rem 0px;
+}
+.comment-image{
+    margin-right: 2rem;
+}
+.comment-image img{
+    width: 6rem;
+}
+.comment-detail > h5{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00347B;
+    line-height: 1.2;
+}
+.comment-detail h5 > a{
+    text-decoration: none;
+}
+.comment-detail > time{
+    color: #555;
+}
+.comment-detail .reply
+{
+    font-size: 1.5rem;
+    color: rgba(0, 51, 122,0.8);
+}
+.comment-detail >p{
+    font-size: 1.3rem;
+    color:#444;
+    margin: 1.2rem 0rem;
+    line-height: 1.2;
+    white-space: 1.2rem;
+    padding-right: 2rem;
+}
+/* Comment section ends */
