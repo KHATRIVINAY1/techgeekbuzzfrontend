@@ -271,23 +271,24 @@
   
   .nav-item input {
     background-color: #ffffff;
-    width: 32rem;
-    height: 3.6rem;
-    background-image: url("../images/bx-search.svg");
-    background-position: 95%;
-    background-repeat: no-repeat;
-    padding: 0px 1.5rem;
-    font-size: 1.4rem;
-    font-weight: 400;
-    border-radius: 1.2rem;
-    border: 1px solid #cecece;
-    box-shadow: rgba(77, 77, 77, 0.1) 0px 1px 6px 0px;
+    width: 32rem !important;
+    height: 3.6rem !important;
+    background-image: url("../images/bx-search.svg")  !important;
+    background-position: 95%  !important;
+    background-repeat: no-repeat  !important;
+    padding: 0px 1.5rem  !important;
+    font-size: 1.4rem  !important;
+    font-weight: 400  !important;
+    border-radius: 1.2rem  !important;
+    border: 1px solid #cecece  !important;
+    box-shadow: rgba(77, 77, 77, 0.1) 0px 1px 6px 0px  !important;
   }
   .nav-item input[type="text"]:focus {
-    border: 1px solid #cecece;
-    outline: #cecece;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 6px 0px;
-    padding: 1.1rem 2rem;
+    border: 1px solid #cecece  !important;
+    outline: #cecece  !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 6px 0px  !important;
+    padding: 1.1rem 2rem  !important;
+    margin-bottom: 0px !important;
   }
   
   .nav-item button {
