@@ -134,4 +134,16 @@
       .footer-section{
         padding-top:5rem ;
     } 
+    .hero-description{
+      text-align: center;
+    }
+    .about-us-horizontal-row{
+      width: 80%;
+      margin: 0px auto;
+    }
+    .about-hero-img
+    {
+      width: 100%;
+      margin: 2em 0px;
+    }
   }
