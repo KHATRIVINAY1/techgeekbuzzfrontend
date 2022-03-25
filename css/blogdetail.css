@@ -87,11 +87,11 @@ article{
     
 }
 
-article pre{
+/* article pre{
     background-color: #09005D;
     padding: 2rem;
     color: #fff;
-}
+} */
 
 article::target-text {
     margin-bottom: 100rem;

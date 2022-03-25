@@ -49,12 +49,13 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #444 !important;
+    color: #333 ;
   }
   
-  .dropdown-toggle::after {
-    content: none;
+  .navbar-light .navbar-nav .nav-link{
+    color: #444;
   }
+
   
   /* Modal settings */
   .modal-backdrop {
@@ -420,3 +421,27 @@
       font-size:1.2rem;
     }
     
+
+
+    
+    .dropdown-item > img{
+      width: 4rem;
+      height: 4rem;
+      background-color: #006cff;
+      border-radius: 50%;
+      padding: 1rem;
+    }
+   
+    .dropdown-item >span{
+      margin-left: 2rem;
+    }
+
+    .dropdown-menu[data-bs-popper] {
+      top: 119%;
+      left: -87px;
+      margin-top: 0.125rem;
+    }
+
+    .active-dropdown{
+      color: blue !important;
+    }
